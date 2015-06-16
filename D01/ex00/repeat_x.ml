@@ -6,7 +6,7 @@
 (*   By: ael-kadh <ael-kadh@student.42.fr>          +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/16 11:48:03 by ael-kadh          #+#    #+#             *)
-(*   Updated: 2015/06/16 11:58:14 by ael-kadh         ###   ########.fr       *)
+(*   Updated: 2015/06/16 17:02:53 by ael-kadh         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -24,10 +24,8 @@ let repeat_x n =
     in
     loop n ""
 
-let main() =
+let () =
     print_endline (repeat_x (-1));
     print_endline (repeat_x 0);
     print_endline (repeat_x 1);
     print_endline (repeat_x 5)
-
-let () = main()

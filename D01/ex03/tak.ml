@@ -6,7 +6,7 @@
 (*   By: ael-kadh <ael-kadh@student.42.fr>          +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/16 12:59:30 by ael-kadh          #+#    #+#             *)
-(*   Updated: 2015/06/16 13:08:22 by ael-kadh         ###   ########.fr       *)
+(*   Updated: 2015/06/16 17:03:08 by ael-kadh         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -18,7 +18,7 @@ let tak x y z =
             z
     in loop x y z
 
-let main() =
+let () =
     print_int (tak 1 2 3);
     print_char '\n';
     print_int (tak 5 23 7);
@@ -31,5 +31,3 @@ let main() =
     print_char '\n';
     print_int (tak 23498 98734 98776);
     print_char '\n'
-
-let () = main ()

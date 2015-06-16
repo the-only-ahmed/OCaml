@@ -6,7 +6,7 @@
 (*   By: ael-kadh <ael-kadh@student.42.fr>          +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2015/06/16 12:15:52 by ael-kadh          #+#    #+#             *)
-(*   Updated: 2015/06/16 12:57:53 by ael-kadh         ###   ########.fr       *)
+(*   Updated: 2015/06/16 17:02:30 by ael-kadh         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -26,7 +26,7 @@ let ackermann x y =
     else
         loop x y
 
-let main() =
+let () =
     print_int (ackermann (-1) 7);
     print_char '\n';
     print_int (ackermann 0 0);
@@ -35,5 +35,3 @@ let main() =
     print_char '\n';
     print_int (ackermann 4 1);
     print_char '\n'
-
-let () = main ()
