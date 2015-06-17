@@ -27,5 +27,4 @@ let ft_print_comb2 () =
 	func1 0;
 	print_char '\n'
 
-(* let () = ft_print_comb2 ()
- *)
+let () = ft_print_comb2 ()
