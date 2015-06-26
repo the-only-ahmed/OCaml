@@ -1,0 +1,4 @@
+class trinitrotoluene =
+	object
+		inherit Molecule.molecule "Trinitrotoluene" ([(new Oxygen.oxygen)] @ [(new Carbon.carbon)] @ [(new Carbon.carbon)]@ [(new Carbon.carbon)]@ [(new Carbon.carbon)]@ [(new Carbon.carbon)]@ [(new Carbon.carbon)] @ [(new Oxygen.oxygen)]  @ [(new Nitrogen.nitrogen)] @ [(new Oxygen.oxygen)]  @ [(new Oxygen.oxygen)]  @ [(new Nitrogen.nitrogen)] @ [(new Oxygen.oxygen)]  @ [(new Oxygen.oxygen)]  @ [(new Nitrogen.nitrogen)] @ [(new Carbon.carbon)] @ [(new Hydrogen.hydrogen)] @ [(new Hydrogen.hydrogen)] @ [(new Hydrogen.hydrogen)] @ [(new Hydrogen.hydrogen)] @ [(new Hydrogen.hydrogen)])
+	end
